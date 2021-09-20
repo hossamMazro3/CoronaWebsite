@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    font-family: "Sofia", sans-serif;
+    display: block;
+}
+
+.header {
+    background-image: url(../imgs/images.jpg);
+    background-size: 2000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #777;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+    float: left;
+}
+
+.header li img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    vertical-align: middle;
+}
+
+    .header li a:not(.home) {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        padding: 8px;
+    }
+
+#l {
+    border: 1px solid #E74C3C;
+    background-color: #D68910;
+    color: white;
+}
+
+.header li a:hover:not(.home) {
+    background-color: #111;
+    font-size: 25px;
+}
+
+.links {
+    float: right;
+}
+
+.home {
+    color: #E74C3C;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 4px 0 0 8px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.home:hover {
+    font-size: 35px;
+
+}
+
+
+.info {
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+    padding: 10px;
+    text-shadow: none;
+}
+
+.info h2 {
+    color: #D68910;
+    margin-bottom: 2px;
+}
+
+.info p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-indent: 8px;
+}
+
+p:first-letter {
+    font-size: 150%;
+}
+
+.button {
+    border: none;
+    border-radius: 35px;
+    background-color: #D68910;
+    height: 30px;
+    width: 200px;
+    box-shadow: 2px 2px 2px #444;
+    cursor: pointer;
+    text-align:center;
+    margin-left:10px;
+   
+}
+    .button a {
+        text-decoration: none;
+        color: #F2F3F4;
+        font-size: 25px;
+    }
+
+    .button:hover {
+        font-size: 25px;
+        background-color: white;
+        color: #D68910;
+    }
+    .button a:hover {
+        color: #D68910;
+        font-size: 25px;
+    }
+
+        .button:focus {
+            outline: none;
+        }
+
+.subject {
+    clear: both;
+    background-color: #D7DBDD;
+    float: left;
+}
+
+.c1, .c2, .c3 {
+    background-image: url(../imgs/coronavirus.jpg);
+    background-size: 770px;
+    line-height: 1.2;
+    width: 23%;
+    height: 450px;
+    margin: 30px 70px;
+    float: left;
+    border-radius: 50px;
+}
+
+.c1 {
+}
+
+.c2 {
+}
+
+.c3 {
+    margin-right: 30px;
+}
+
+
+
+.subject h3 {
+    color: #D68910;
+    padding: 6px;
+    padding-top: 10px;
+}
+
+.subject p {
+    color: white;
+    font-size: 20px;
+    padding: 0 8px;
+    text-indent: 8px;
+}
+
+.footer {
+    clear: both;
+    background-color: #BDC3C7;
+    width: 100%;
+    height: 400px;
+}
+
+    .footer .footer_icon {
+        text-align: center;
+        display: block;
+    }
+
+    .footer img {
+        clear: both;
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        background-color: #BDC3C7;
+    }
+
+.list {
+    width: 20%;
+    height: 200px;
+    margin: 5px 20px;
+    padding: 2px 2px;
+    display: inline;
+    float: left;
+}
+
+.footer .list span {
+    color: #F2F3F4;
+    font-size: 28px;
+    margin: 5px 15px 0px;
+}
+
+.footer .list ul {
+    text-decoration: dotted;
+    color: #0094ff;
+    display: block;
+    margin: 2px 5px;
+}
+
+.footer .list a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+    .footer .list a:hover {
+        font-size: 35px;
+    }
+
+.footer .list img{
+    width:30px;
+    height:30px;
+    margin-left:20px;
+    margin-top:7px;
+}
+
+.footer .list textarea {
+    width: 270px;
+    height: 75px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 2px 2px 2px #444;
+}
+
+.footer .list button {
+    border: none;
+    border-radius: 35px;
+    background-color: #D68910;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+    box-shadow: 2px 2px 2px #444;
+    cursor: pointer;
+    float: right;
+    margin-right: 28px;
+}
+
+    .footer .list button:hover {
+        font-size: 25px;
+        background-color: white;
+        color: #D68910;
+    }
+
+    .footer .list button:focus {
+        outline: none;
+    }
+
+.list textarea:focus {
+    outline: none;
+}
+
+
+.footer h4 {
+    clear: both;
+    font-size: 13px;
+    color: #F2F3F4;
+}

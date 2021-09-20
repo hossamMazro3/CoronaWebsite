@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>corona course</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="How can we protect others and ourselves ">
+    <link rel="stylesheet" href="stylesheets/medicine.css">
+    <link rel="shortcut icon" href="/imgs/icon1.png" type="image/x-icon" />
+</head>
+<div class="header">
+    <ul>
+        <li><a href="/"><img src="/imgs/icon1.png"></a><a class="home" href="/">corona course</a></li>
+
+        <div class="links">
+            <li><a href="/">Home</a></li>
+
+            <li><a href="/dashboard">dashboard </a></li>
+            {{#if userName}}
+            <li> <a id="l" href="/profile">{{userName}}</a></li>
+            <li> <a href="/logout"><img style="width: 30px; height: 30px; margin-left: 8px;" src="imgs/arrow.svg"></a></li>
+            {{else}}
+            <li><a id="l" href="/login">login</a></li>
+            {{/if}}
+
+        </div>
+    </ul>
+</div>
+<body>
+
+    <div class="second">
+        <h1> The Symptoms </h1>
+        <p class=" paragraph">
+            Identifying the symptoms is very helpful in taking appropriate measures ..
+            What are the symptoms?
+        </p>
+        <a href="#link1"> Read All Paragraph</a>
+    </div>
+    <div class="second">
+        <h1> Medicine </h1>
+        <p class=" paragraph">
+            Treatment protocols for Coronavirus symptoms have been established
+            that everyone can safely follow..
+        </p>
+        <a href="#link2"> Read All Paragraph</a>
+    </div>
+    <div class="second">
+        <h1>Home isolation </h1>
+        <p class=" paragraph">
+            If the symptoms are slight and the condition is not deteriorating,
+            then isolation is done at home with some procedures..
+        </p>
+        <a href="#link3"> Read All Paragraph</a>
+    </div>
+    <div class="symptoms">
+        <div id="link1">
+            <p class="inf1">Symptoms of the Virus </p>
+        </div>
+        <p class="words">
+            Corona virus, symptoms appear after a period of catching the infection,
+            so every person must be aware of what the symptoms are, to act appropriately and take precautions....
+        </p>
+        <div class="sym-img">
+            <img src="imgs/i1.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Vomiting is one of the signs of infection with the Coronavirus.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i7.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Shortness of breath is the most common symptom of virus.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i3.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">A permanent runny nose may be a symptom of the virus.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i4.png" height="150px" width="220 px " class="img">
+            <p class="sym-p">Sore throat and permanent feeling of bitterness.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i8.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Coronavirus causes a feeling of general fatigue and stress.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i6.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Sneezing and coughing are the two most obvious symptoms.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i2.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Diarrhea is increased by the virus as what it does to the digestive system.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i5.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">A high temperature and a fever result from injury and your body's attempt to defend.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/i9.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Loss of sense of smell and taste is a recent symptom of most people with corona.</p>
+        </div>
+
+
+    </div>
+    <div class="medicines">
+        <div id="link2">
+            <p class="inf1">Medicine for patients </p>
+        </div>
+        <div>
+            <p class="words">
+                The Egyptian Ministry of Health and the World Health Organization have put in place a number of protocols for treating
+                symptoms of Corona virus, and they are safe for all patients...
+            </p>
+            <img src="imgs/med.jpg" height="215px" width="450 px " class="med">
+            <p class="inf2">Mild cases</p>
+            <ul>
+                <li>
+                    Hydroxy chloroquine
+                    <ul>
+                        <li> twice a day with 400 miligram for one day</li>
+                        <li> twice a day with 200 miligram for six days</li>
+                    </ul>
+
+                </li>
+                <li> IVERMECTIN</li>
+                <li>
+                    Favipiravir
+                    <ul>
+                        <li>twice a day with 1600 miligram for one day</li>
+                        <li>twice a day with 600 miligram</li>
+                    </ul>
+                </li>
+                <li> Zinc ( 50 miligram each day )</li>
+                <li> Lactoferrin (twics each day )</li>
+                <li> Acetylcysteine (200 miligram each day )</li>
+                <li> Vitamin C (each day )</li>
+
+            </ul>
+            <p class="inf2">Medium cases</p>
+            <ul>
+                <li>
+                    Hydroxy chloroquine
+                    <ul>
+                        <li> twice a day with 400 miligram for one day</li>
+                        <li> twice a day with 200 miligram for six days</li>
+                    </ul>
+
+                </li>
+                <li> IVERMECTIN</li>
+                <li> Lopinavir / Ritonavir</li>
+            </ul>
+            <p class="inf2">High cases</p>
+            <ul>
+                <li> Remdesivir</li>
+            </ul>
+            <p class="inf2">Dangerous situations</p>
+            <ul>
+                <li> Lopinavir / Ritonavir</li>
+                <li> Remdesivir</li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="isolation">
+        <div id="link3">
+            <p class="inf1">Tips for Home Isolation </p>
+        </div>
+        <div>
+            <p class="words">
+                Under the increasing number of infected people,
+                if you catch the infection from the emerging corona virus, it is
+                better to stay at home and observe some precautionary measures...
+            </p>
+
+        </div>
+        <div class="sym-img">
+            <img src="imgs/h1.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Stay isolated at home for at least two weeks or 10 days if you feel better.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/h2.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Spacing the family members at least six meters, and it is more preferred.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/h3.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">If you have to deal directly with family , wear a mask and disinfect hands with alcohol.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/h4.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Use single-use food tools and dispose of them immediately to protect others.</p>
+        </div>
+        <div class="sym-img">
+            <img src="imgs/h5.jpg" height="150px" width="220 px " class="img">
+            <p class="sym-p">Use special tools for the patient and sterilize them before and after use.</p>
+        </div>
+
+    </div>
+
+    <div class="footer" id="foo-link">
+        <div class="footer_icon">
+            <a href="/">
+                <img src="imgs/icon1.png"><br>
+            </a>
+        </div>
+        <div class="list">
+            <span>&#x2630 Terminology</span>
+            <ul>
+                <li>  <a href="/protection">protection</a>  </li>
+                <li>  <a href="/medicine">medicine</a>  </li>
+                <li>  <a href="/doctors">doctors</a>  </li>
+            </ul>
+
+        </div>
+        <div class="list">
+            <span>&#x260E Contact</span><br />
+            <a target="_blank" href="https://www.instagram.com/hoso_mazro3/">
+                <img src="imgs/instagram.svg">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004294773971">
+                <img src="imgs/facebook.svg">
+            </a>
+            <a target="_blank" href="https://twitter.com/hossammazroa">
+                <img src="imgs/twitter.svg">
+            </a><br />
+            <a target="_blank" href="https://www.linkedin.com/in/hossam-ahmed-0b5a95186/">
+                <img src="imgs/linkedin.svg">
+            </a>
+            <a target="_blank" href="https://github.com/hossammazro3910">
+                <img src="imgs/github.svg">
+            </a>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm#inbox">
+                <img src="imgs/google-plus.svg">
+            </a>
+        </div>
+        <div class="list">
+            <span>&#x2726 Help</span><br />
+            <textarea></textarea><br />
+            <button onclick="window.location.href='/medicine'"> send </button>
+        </div>
+        <div class="list">
+            <span>&#x2139  About </span><br />
+
+            <p style="color: #0000FF; margin:0 0;">This site provides medical information about the kurna pandemic and how to deal with it if you become infected and take the required precautions to avoid catching it</p>
+        </div>
+
+
+
+
+        <div class="footer_icon">
+            <h4>&copy copyright 2021. All Rights Reserved.</h4>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!-- author: hossam mazro3 -->
+<html>
+<head>
+    <title>corona course</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="Description" content="this is my first website about covid-19 ">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="shortcut icon" href="/imgs/icon1.png" type="image/x-icon" />
+
+</head>
+
+<body>
+
+    <div class="header">
+        <ul>
+            <li><a href="/"><img src="/imgs/icon1.png"></a><a class="home" href="/">corona course</a></li>
+
+            <div class="links">
+                <li><a href="/">Home</a></li>
+
+                <li><a href="/dashboard">dashboard</a></li>
+                {{#if userName}}
+            <li> <a id="l" href="/profile">{{userName}}</a></li>
+            <li> <a href="/logout"><img style="width: 30px; height: 30px; margin-left: 8px;" src="imgs/arrow.svg"></a></li>
+                    {{else}}
+                    <li><a id="l" href="/login">login</a></li>
+                    {{/if}}
+                </div>
+</ul>
+
+        <div class="info">
+            <h2>COVID-19 Information</h2>
+            <p>
+                The COVID-19 pandemic, also known as the coronavirus pandemic,
+                is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2),
+                first identified in December 2019 in Wuhan, China.
+                The World Health Organization declared the outbreak
+                a Public Health Emergency of International Concern in January 2020 and a pandemic in March 2020.
+                As of 3 December 2020, more than 64.7 million cases have been confirmed, with more than 1.49 million deaths attributed to COVID-19.
+            </p>
+            <div class="button">  <a href="https://en.wikipedia.org/wiki/COVID-19_pandemic" target="_blank">learn more</a> </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="subject">
+        <div class="c1">
+            <h3>What are the symptoms of COVID-19?</h3>
+            <p>
+                Common symptoms include fever, cough, fatigue, breathing difficulties, and loss of smell and taste.
+                Complications may include pneumonia and acute respiratory distress syndrome.
+                The incubation period is typically around five days but may range from one to 14 days.
+            </p>
+            <div class="button">
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms" target="_blank">learn more</a>
+            </div>
+        </div>
+
+        <div class="c2">
+            <h3>How can we protect others and ourselves ?</h3>
+            <p>
+                Stay safe by taking some simple precautions, such as physical distancing, wearing a mask,
+                especially when distancing cannot be maintained, keeping rooms well ventilated, avoiding crowds and close contact,
+                regularly cleaning your hands, and coughing into a bent elbow or tissue.
+                Check local advice where you live and work. Do it all!
+            </p>
+            <div class="button">
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms" target="_blank">learn more</a>
+            </div>
+        </div>
+
+        <div class="c3">
+            <h3>What test should I get to see if I have COVID-19?</h3>
+            <p>
+                In most situations, a molecular test is used to detect SARS-CoV-2 and confirm infection.
+                Polymerase chain reaction (PCR) is the most commonly used molecular test. Samples are collected from the nose and/or throat with a swab.
+                Molecular tests detect virus in the sample by amplifying viral genetic material to detectable levels.
+            </p>
+            <div class="button">
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms" target="_blank">learn more</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer" id="foo-link">
+        <div class="footer_icon">
+            <a  href="/">
+                <img src="imgs/icon1.png"><br>
+            </a>
+        </div>
+        <div class="list">
+            <span>&#x2630 Terminology</span>
+            <ul>
+                <li>  <a href="/protection">protection</a>  </li>
+                <li>  <a href="/medicine">medicine</a>  </li>
+                <li>  <a href="/doctors">doctors</a>  </li>
+            </ul>
+
+        </div>
+        <div class="list">
+            <span>&#x260E Contact</span><br />
+            <a target="_blank" href="https://www.instagram.com/hoso_mazro3/">
+                <img src="imgs/instagram.svg">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004294773971">
+                <img src="imgs/facebook.svg">
+            </a>
+            <a target="_blank" href="https://twitter.com/hossammazroa">
+                <img src="imgs/twitter.svg">
+            </a><br />
+            <a target="_blank" href="https://www.linkedin.com/in/hossam-ahmed-0b5a95186/">
+                <img src="imgs/linkedin.svg">
+            </a>
+            <a target="_blank" href="https://github.com/hossammazro3910">
+                <img src="imgs/github.svg">
+            </a>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm#inbox">
+                <img src="imgs/google-plus.svg">
+            </a>
+
+        </div>
+        <div class="list">
+            <span>&#x2726 Help</span><br />
+            <textarea></textarea><br />
+            <button onclick="window.location.href='/'"> send </button>
+        </div>
+        <div class="list">
+            <span>&#x2139  About </span><br />
+
+                                        <p style="color: #0000FF; margin:0 0;">This site provides medical information about the kurna pandemic and how to deal with it if you become infected and take the required precautions to avoid catching it</p>
+        </div>
+
+
+
+
+        <div class="footer_icon">
+            <h4>&copy copyright 2021. All Rights Reserved.</h4>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

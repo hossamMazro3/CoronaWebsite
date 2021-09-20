@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>corona course</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="How can we protect others and ourselves ">
+    <link rel="stylesheet" href="stylesheets/dashboard.css">
+    <link rel="shortcut icon" href="/imgs/icon1.png" type="image/x-icon" />
+</head>
+<div class="header">
+    <ul>
+        <li><a href="/"><img src="/imgs/icon1.png"></a><a class="home" href="/">corona course</a></li>
+
+        <div class="links">
+            <li><a href="/">Home</a></li>
+
+            <li><a href="">dashboard </a></li>
+
+            {{#if userName}}
+            <li> <a id="l" href="/profile">{{userName}}</a></li>
+            <li> <a href="/logout"><img style="width: 30px; height: 30px; margin-left: 8px;" src="imgs/arrow.svg"></a></li>
+            {{else}}
+            <li><a id="l" href="/login">login</a></li>
+            {{/if}}
+
+        </div>
+    </ul>
+</div>
+<body>
+    <p class="hi"> welcome {{userName}} to our medical website,We hope you will benefit from it </p>
+    <div class="statstic">
+        <p>COVID-19 Overview</p>
+        <span class="tx" style="color:#ff0000">Total Confirmed </span>
+        <span class="tx" style="        color: #27AE60">Total Recovered </span>
+        <span class="tx" style="        color: #85929E">Total Deaths </span><br /><br />
+        <span class="num" style="color:#ff0000">106,968,571</span>
+        <span class="num" style="        color: #27AE60">78,942,482</span>
+        <span class="num" style="        color: #85929E">2,334,973</span>
+    </div>
+    <div class="tips">
+        <img class="Tlogo" src="imgs/tips.svg"><span>COVID-19: Safety Tips for You</span> <br />
+
+        <img src="imgs/coronavirus-safety-tw.jpg" />
+    </div>
+    <div class="ourTeam">
+        <p>Our Team</p>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100009358546160"> <img class="z1" src="imgs/ahmed.jpg"></a>
+            <a href="https://www.facebook.com/profile.php?id=100004294773971"> <img class="z2" src="imgs/hossam.jpg"></a>
+            <a href="https://www.facebook.com/zeyadelkholy23/">  <img class="z3" src="imgs/zeyad.jpg"></a>
+            <a href="https://www.facebook.com/profile.php?id=100005105918987"> <img class="z7" src="imgs/ashrakat.jpg"></a>
+            <a href="https://www.facebook.com/hadeermoustafa8/">   <img class="z6" src="imgs/hadeer.jpg"></a>
+            <a href="https://www.facebook.com/ana.ayouch/"> <img class="z5" src="imgs/aya.jpg"></a>
+            <a href="https://www.facebook.com/profile.php?id=100034503560889"><img class="z4" style="width:160px; height:160px; margin-top:0;" src="imgs/z.jpg"></a>
+        </div>
+
+    </div>
+    <div class="Ctest">
+        <span>Lets do a light test for your likelihood of being infected with the coronavirus</span><br />
+        <button id="myBtn">start</button>
+        <div class="test" id="Tst">
+            <div class="test2">
+                <span class="Titem"> <input type="checkbox" /> <span>Sore throat</span> </span>
+                <span class="Titem"> <input type="checkbox" /> <span>a headache</span> </span>
+                <span class="Titem"> <input type="checkbox" /> <span>Exhaustion</span> </span>
+                <span class="Titem"> <input type="checkbox" /> <span>Chest pain or pressure</span> </span>
+            </div>
+            <br />
+            <div class="test2">
+                <span class="Titem"> <input type="checkbox" id="R1" /> <span>Loss of sense of taste or smell</span> </span>
+                <span class="Titem"> <input type="checkbox"  /> <span> Pains,aches and conjunctivitis</span> </span>
+                <span class="Titem"> <input type="checkbox" id="R3" /> <span>Loss of ability to speak or move</span> </span>
+            </div>
+            <br />
+            <div class="test2">
+                <span class="Titem"> <input type="checkbox" /> <span>A rash or discolouration of the fingers or toes</span> </span>
+                <span class="Titem"> <input type="checkbox" id="R2" /> <span> Difficulty breathing or shortness of breath</span> </span><br />
+            </div>
+            <button class="btn">Test</button><br />
+            <span class="result"></span>
+        </div>
+        
+        
+
+    </div>
+
+
+
+    <div class="footer" id="foo-link">
+        <div class="footer_icon">
+            <a href="/">
+                <img src="imgs/icon1.png"><br>
+            </a>
+        </div>
+        <div class="list">
+            <span>&#x2630 Terminology</span>
+            <ul>
+                <li>  <a href="/protection">protection</a>  </li>
+                <li>  <a href="/medicine">medicine</a>  </li>
+                <li>  <a href="/doctors">doctors</a>  </li>
+            </ul>
+        </div>
+        <div class="list">
+            <span>&#x260E Contact</span><br />
+            <a target="_blank" href="https://www.instagram.com/hoso_mazro3/">
+                <img src="imgs/instagram.svg">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004294773971">
+                <img src="imgs/facebook.svg">
+            </a>
+            <a target="_blank" href="https://twitter.com/hossammazroa">
+                <img src="imgs/twitter.svg">
+            </a><br />
+            <a target="_blank" href="https://www.linkedin.com/in/hossam-ahmed-0b5a95186/">
+                <img src="imgs/linkedin.svg">
+            </a>
+            <a target="_blank" href="https://github.com/hossammazro3910">
+                <img src="imgs/github.svg">
+            </a>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm#inbox">
+                <img src="imgs/google-plus.svg">
+            </a>
+        </div>
+        <div class="list">
+            <span>&#x2726 Help</span><br />
+            <textarea></textarea><br />
+            <button onclick="window.location.href='/doctors'"> send </button>
+        </div>
+        <div class="list">
+            <span>&#x2139  About </span><br />
+            <p style="color: #0000FF; margin:0 0;">This site provides medical information about the kurna pandemic and how to deal with it if you become infected and take the required precautions to avoid catching it</p>
+        </div>
+        <div class="footer_icon">
+            <h4>&copy copyright 2021. All Rights Reserved.</h4>
+        </div>
+    </div>
+
+
+
+   
+    <script>
+        let y = document.getElementById("Tst")
+        let x = document.getElementById("myBtn");
+        y.style.display = 'none';
+        x.addEventListener("click", appear);
+
+        function appear() {
+            y.style.display = 'inherit';
+        }
+        let b = document.getElementsByClassName("btn");
+        let r = document.getElementsByClassName("result");
+        r[0].style.display = 'none';
+        b[0].addEventListener("click", Resualt);
+        function Resualt() {
+            if (document.getElementById("R1").checked || document.getElementById("R2").checked || document.getElementById("R3").checked) {
+                r[0].innerHTML = "You may be infected with the virus, you must go to the doctor to be sure";
+                r[0].style.display = 'inherit';
+            } else {
+                r[0].innerHTML = "Continue to implement prevention and take full care, you are well";
+                r[0].style.display = 'inherit';
+            }
+        }
+
+    </script>
+</body>
+</html>

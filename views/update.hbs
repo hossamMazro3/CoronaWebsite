@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>coronaCourse</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="this is my coronaCourse lofin form">
+    <link rel="stylesheet" href="/stylesheets/update.css" />
+    <link rel="shortcut icon" href="/imgs/icon1.png" type="image/x-icon" />
+
+</head>
+<div class="header">
+    <ul>
+        <li><a href="/"><img src="/imgs/icon1.png"></a><a class="home" href="/">corona course</a></li>
+
+        <div class="links">
+            <li><a href="/">Home</a></li>
+
+            <li><a href="dashboard">dashboard </a></li>
+
+            {{#if userName}}
+            <li> <a id="l" href="/profile">{{userName}}</a></li>
+            <li> <a href="/logout"><img style="width: 30px; height: 30px; margin-left: 8px;" src="imgs/arrow.svg"></a></li>
+            {{else}}
+            <li><a id="l" href="/login">login</a></li>
+            {{/if}}
+
+        </div>
+    </ul>
+</div>
+
+<body>
+
+    <div class="container" name="container">
+        <div class="login" name="login">
+            <form action="update?id={{id}}" method="post">
+                <label class="covid">corona course</label> <br> <br>
+                <input type="text" class="uName" name="username" placeholder="  Enter New Username ">
+                <p class="danger">{{message.[0]}}</p>
+                <input type="email" class="email" name="email" placeholder="  New Email Or Phone">
+                <p class="danger">{{message.[1]}}</p>
+                <input type="password" class="password" name="password" placeholder=" New  Password"><br>
+                <p class="danger">{{message.[3]}}</p>
+                <input type="password" class="password" name="v_password" placeholder="   Repeat New Password"><br>
+                <input type="submit" class="login" value="update">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

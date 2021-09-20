@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>coronaCourse</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="this is my coronaCourse lofin form">
+    <link rel="stylesheet" href="/stylesheets/style_signUp.css" />
+    <link rel="shortcut icon" href="/imgs/icon1.png" type="image/x-icon" />
+</head>
+
+
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="/"><img src="/imgs/icon1.png"></a><a class="home" href="/">corona course</a></li>
+
+            <div class="links">
+                <li><a href="/">Home</a></li>
+
+                <li><a href="/dashboard">dashboard </a></li>
+
+
+            </div>
+        </ul>
+    </div>
+   
+    <div class="container" name="container">
+
+        <div class="login" name="login">
+
+
+            <form action="sign_up" method="post">
+
+                <label class="covid">corona course</label> <br> <br>
+
+                <input type="text" class="uName" name="username" placeholder="  Enter Username ">
+                <p class="danger">{{message.[0]}}</p>
+                <input type="email" class="email" name="email" placeholder="   Email Or Phone">
+                <p class="danger">{{message.[1]}}</p>
+                <input type="password" class="password" name="password" placeholder="   Password"><br>
+                <p class="danger">{{message.[3]}}</p>
+                <input type="password" class="password" name="v_password" placeholder="   Repeat Password"><br>
+               
+                <input type="submit" class="login" value="login" onclick="">
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
